@@ -12,8 +12,12 @@
     <script type="text/javascript" src="functions.js"></script>
 </head>
 
-<body>
+<body onload="load()">
     <h1>Minha página</h1>
+    <button type="button" onclick="botao()">Clique aqui</button>
+    <h3 id="h3Clique" onclick="redirecionar()"></h3>
+    <p id="pMouse" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse</p>
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse</p>
 </body>
 
 </html>
